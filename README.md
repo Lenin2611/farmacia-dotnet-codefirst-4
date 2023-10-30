@@ -1,114 +1,59 @@
 # **Farmacia CodeFirst**
 
 - Creación de Proyecto
-
-  1. [Creación de sln](#Creacion-de-sln)
-
-  2. [Creación de proyectos de classlib](#Creacion-de-proyectos-classlib)
-
-  3. [Creación de proyecto de webapi](#Creacion-de-proyecto-webapi)
-
-  4. [Agregar proyectos al sln](#Agregar-proyectos-al-sln)
-
-  5. [Agregar referencia entre proyectos](#Agregar-referencia-entre-proyectos)
-
-     
-
+  1. [Creación de sln](https://file+.vscode-resource.vscode-cdn.net/c%3A/Users/lenin/OneDrive/Documentos/campus/dotnet/farmacia-fourlayers/README.md#Creacion-de-sln)
+  2. [Creación de proyectos de classlib](https://file+.vscode-resource.vscode-cdn.net/c%3A/Users/lenin/OneDrive/Documentos/campus/dotnet/farmacia-fourlayers/README.md#Creacion-de-proyectos-classlib)
+  3. [Creación de proyecto de webapi](https://file+.vscode-resource.vscode-cdn.net/c%3A/Users/lenin/OneDrive/Documentos/campus/dotnet/farmacia-fourlayers/README.md#Creacion-de-proyecto-webapi)
+  4. [Agregar proyectos al sln](https://file+.vscode-resource.vscode-cdn.net/c%3A/Users/lenin/OneDrive/Documentos/campus/dotnet/farmacia-fourlayers/README.md#Agregar-proyectos-al-sln)
+  5. [Agregar referencia entre proyectos](https://file+.vscode-resource.vscode-cdn.net/c%3A/Users/lenin/OneDrive/Documentos/campus/dotnet/farmacia-fourlayers/README.md#Agregar-referencia-entre-proyectos)
 - Instalación de paquetes
-
-  1. [Proyecto API](#Proyecto-API)
-
-  2. [Proyecto Domain](#Proyecto-Domain)
-
-  3. [Proyecto Persistance](#Proyecto-Persistance)
-
-     
-
+  1. [Proyecto API](https://file+.vscode-resource.vscode-cdn.net/c%3A/Users/lenin/OneDrive/Documentos/campus/dotnet/farmacia-fourlayers/README.md#Proyecto-API)
+  2. [Proyecto Domain](https://file+.vscode-resource.vscode-cdn.net/c%3A/Users/lenin/OneDrive/Documentos/campus/dotnet/farmacia-fourlayers/README.md#Proyecto-Domain)
+  3. [Proyecto Persistance](https://file+.vscode-resource.vscode-cdn.net/c%3A/Users/lenin/OneDrive/Documentos/campus/dotnet/farmacia-fourlayers/README.md#Proyecto-Persistance)
 - Migración de Proyecto
-
-  1. [Migración](#Migracion)
-
-  2. [Actualizar base de datos](#Actualizar-base-de-datos)
-
-     
-
+  1. [Migración](https://file+.vscode-resource.vscode-cdn.net/c%3A/Users/lenin/OneDrive/Documentos/campus/dotnet/farmacia-fourlayers/README.md#Migracion)
+  2. [Actualizar base de datos](https://file+.vscode-resource.vscode-cdn.net/c%3A/Users/lenin/OneDrive/Documentos/campus/dotnet/farmacia-fourlayers/README.md#Actualizar-base-de-datos)
 - API
-
   1. Controllers
-
-     - [EntityController.cs](#EntityController)
-     - [BaseController.cs](#BaseController)
-     - [UserController.cs](#UserController)
-
+     - [EntityController.cs](https://file+.vscode-resource.vscode-cdn.net/c%3A/Users/lenin/OneDrive/Documentos/campus/dotnet/farmacia-fourlayers/README.md#EntityController)
+     - [BaseController.cs](https://file+.vscode-resource.vscode-cdn.net/c%3A/Users/lenin/OneDrive/Documentos/campus/dotnet/farmacia-fourlayers/README.md#BaseController)
+     - [UserController.cs](https://file+.vscode-resource.vscode-cdn.net/c%3A/Users/lenin/OneDrive/Documentos/campus/dotnet/farmacia-fourlayers/README.md#UserController)
   2. Dtos
-
-     - [EntityDto.cs](#EntityDto)
-
+     - [EntityDto.cs](https://file+.vscode-resource.vscode-cdn.net/c%3A/Users/lenin/OneDrive/Documentos/campus/dotnet/farmacia-fourlayers/README.md#EntityDto)
   3. Extensions
-
-     - [ApplicationServicesExtension.cs](#ApplicationServicesExtension)
-
+     - [ApplicationServicesExtension.cs](https://file+.vscode-resource.vscode-cdn.net/c%3A/Users/lenin/OneDrive/Documentos/campus/dotnet/farmacia-fourlayers/README.md#ApplicationServicesExtension)
   4. Helper
-
-     - [Authorization.cs](#Authorization)
-     - [JWT.cs](#JWT)
-
-     - [Pager.cs](#Pager)
-
-     - [Params.cs](#Params)
-
+     - [Authorization.cs](https://file+.vscode-resource.vscode-cdn.net/c%3A/Users/lenin/OneDrive/Documentos/campus/dotnet/farmacia-fourlayers/README.md#Authorization)
+     - [JWT.cs](https://file+.vscode-resource.vscode-cdn.net/c%3A/Users/lenin/OneDrive/Documentos/campus/dotnet/farmacia-fourlayers/README.md#JWT)
+     - [Pager.cs](https://file+.vscode-resource.vscode-cdn.net/c%3A/Users/lenin/OneDrive/Documentos/campus/dotnet/farmacia-fourlayers/README.md#Pager)
+     - [Params.cs](https://file+.vscode-resource.vscode-cdn.net/c%3A/Users/lenin/OneDrive/Documentos/campus/dotnet/farmacia-fourlayers/README.md#Params)
   5. Profiles
-
-     - [MappingProfiles.cs](#MappingProfiles)
-
+     - [MappingProfiles.cs](https://file+.vscode-resource.vscode-cdn.net/c%3A/Users/lenin/OneDrive/Documentos/campus/dotnet/farmacia-fourlayers/README.md#MappingProfiles)
   6. Program
-
-     - [Program.cs](#Program)
-
+     - [Program.cs](https://file+.vscode-resource.vscode-cdn.net/c%3A/Users/lenin/OneDrive/Documentos/campus/dotnet/farmacia-fourlayers/README.md#Program)
   7. Services
-
-     - [UserService.cs](#UserService)
-
-     - [IUserService.cs](#IUserService)
-
-       
-
+     - [UserService.cs](https://file+.vscode-resource.vscode-cdn.net/c%3A/Users/lenin/OneDrive/Documentos/campus/dotnet/farmacia-fourlayers/README.md#UserService)
+     - [IUserService.cs](https://file+.vscode-resource.vscode-cdn.net/c%3A/Users/lenin/OneDrive/Documentos/campus/dotnet/farmacia-fourlayers/README.md#IUserService)
 - Application
-
   1. Repositories
-     - [EntityRepository.cs](#EntityRepository)
-     - [GenericRepository.cs](#GenericRepository)
+     - [EntityRepository.cs](https://file+.vscode-resource.vscode-cdn.net/c%3A/Users/lenin/OneDrive/Documentos/campus/dotnet/farmacia-fourlayers/README.md#EntityRepository)
+     - [GenericRepository.cs](https://file+.vscode-resource.vscode-cdn.net/c%3A/Users/lenin/OneDrive/Documentos/campus/dotnet/farmacia-fourlayers/README.md#GenericRepository)
   2. UnitOfWork
-     - [UnitOfWork.cs](#UnitOfWork)
-
+     - [UnitOfWork.cs](https://file+.vscode-resource.vscode-cdn.net/c%3A/Users/lenin/OneDrive/Documentos/campus/dotnet/farmacia-fourlayers/README.md#UnitOfWork)
 - Domain
-
   1. Entities
-
-     - [Entity.cs](#Entity)
-     - [BaseEntity.cs](#BaseEntity)
-
+     - [Entity.cs](https://file+.vscode-resource.vscode-cdn.net/c%3A/Users/lenin/OneDrive/Documentos/campus/dotnet/farmacia-fourlayers/README.md#Entity)
+     - [BaseEntity.cs](https://file+.vscode-resource.vscode-cdn.net/c%3A/Users/lenin/OneDrive/Documentos/campus/dotnet/farmacia-fourlayers/README.md#BaseEntity)
   2. Interfaces
-
-     - [IEntity.cs](#IEntity)
-
-     - [IUser.cs](#IUser)
-
-     - [IGenericRepository.cs](#IGenericRepository)
-
-     - [IUnitOfWork.cs](#IUnitOfWork)
-
-     
-
+     - [IEntity.cs](https://file+.vscode-resource.vscode-cdn.net/c%3A/Users/lenin/OneDrive/Documentos/campus/dotnet/farmacia-fourlayers/README.md#IEntity)
+     - [IUser.cs](https://file+.vscode-resource.vscode-cdn.net/c%3A/Users/lenin/OneDrive/Documentos/campus/dotnet/farmacia-fourlayers/README.md#IUser)
+     - [IGenericRepository.cs](https://file+.vscode-resource.vscode-cdn.net/c%3A/Users/lenin/OneDrive/Documentos/campus/dotnet/farmacia-fourlayers/README.md#IGenericRepository)
+     - [IUnitOfWork.cs](https://file+.vscode-resource.vscode-cdn.net/c%3A/Users/lenin/OneDrive/Documentos/campus/dotnet/farmacia-fourlayers/README.md#IUnitOfWork)
 - Persistance
-
   1. Data
-
      - Configuration
-       - [EntityConfiguration.cs](#EntityConfiguration)
-     - [DbContext.cs](#DbContext)
-
-     
+       - [EntityConfiguration.cs](https://file+.vscode-resource.vscode-cdn.net/c%3A/Users/lenin/OneDrive/Documentos/campus/dotnet/farmacia-fourlayers/README.md#EntityConfiguration)
+     - [DbContext.cs](https://file+.vscode-resource.vscode-cdn.net/c%3A/Users/lenin/OneDrive/Documentos/campus/dotnet/farmacia-fourlayers/README.md#DbContext)
 
 ## Creación de proyecto
 
@@ -118,7 +63,7 @@
 dotnet new sln
 ```
 
-#### Creacion  de proyectos classlib
+#### Creacion de proyectos classlib
 
 ```
 dotnet new classlib -o Application
@@ -126,7 +71,7 @@ dotnet new classlib -o Domain
 dotnet new classlib -o Persistance
 ```
 
-#### Creacion  de proyecto webapi
+#### Creacion de proyecto webapi
 
 ```
 dotnet new webapi -o API
@@ -154,8 +99,6 @@ cd ..
 cd ./Persistance/
 dotnet add reference ../Domain/
 ```
-
-
 
 ## Instalacion de paquetes
 
@@ -189,8 +132,6 @@ dotnet add package Microsoft.EntityFrameworkCore
 dotnet add package Pomelo.EntityFrameworkCore.MySql
 ```
 
-
-
 ## Migración de Proyecto
 
 #### Migracion
@@ -204,8 +145,6 @@ dotnet ef migrations add InitialCreate --project ./Persistance/ --startup-projec
 ```
 dotnet ef database update --project ./Persistance/ --startup-project ./API/     
 ```
-
-
 
 ## API
 
@@ -410,8 +349,6 @@ public class UserController : BaseController
 }
 ```
 
-
-
 #### Dtos
 
 ###### EntityDto
@@ -430,8 +367,6 @@ public class MovimientoInventarioDto
     public int IdFormaPagoFk { get; set; }
 }
 ```
-
-
 
 #### Extensions
 
@@ -518,8 +453,6 @@ public static class ApplicationServiceExtensions
     }
 }
 ```
-
-
 
 #### Helpers
 
@@ -637,8 +570,6 @@ public class Params
 }
 ```
 
-
-
 #### Profiles
 
 ###### MappingProfiles
@@ -654,13 +585,11 @@ public class MappingProfiles : Profile
 {
     public MappingProfiles()
     {
-        CreateMap<BlockChain, BlockChainDto>().ReverseMap();
+        CreateMap<MovimientoInventario,MovimientoInventarioDto>().ReverseMap();
         ...
     }
 }
 ```
-
-
 
 #### Program
 
@@ -719,8 +648,6 @@ app.MapControllers();
 
 app.Run();
 ```
-
-
 
 ## Application
 
@@ -791,9 +718,9 @@ namespace Application.Repositories;
 
 public class GenericRepository<T> : IGenericRepository<T> where T : BaseEntity
 {
-    private readonly NotiAppContext _context;
+    private readonly FarmaciaFourLayersContext _context;
 
-    public GenericRepository(NotiAppContext context)
+    public GenericRepository(FarmaciaFourLayersContext context)
     {
         _context = context;
     }
@@ -855,8 +782,6 @@ public class GenericRepository<T> : IGenericRepository<T> where T : BaseEntity
 }
 ```
 
-
-
 #### UnitOfWork
 
 ###### UnitOfWork
@@ -870,11 +795,11 @@ namespace Application.UnitOfWork;
 
 public class UnitOfWork : IUnitOfWork,IDisposable
 {
-    private readonly NotiAppContext _context;
+    private readonly FarmaciaFourLayersContext _context;
     private IMovimientoInventario _MovimientoInventario;
     ...
 
-    public UnitOfWork(NotiAppContext context)
+    public UnitOfWork(FarmaciaFourLayersContext context)
     {
         _context = context;
     }
@@ -903,8 +828,6 @@ public class UnitOfWork : IUnitOfWork,IDisposable
     }
 }
 ```
-
-
 
 ## Domain
 
