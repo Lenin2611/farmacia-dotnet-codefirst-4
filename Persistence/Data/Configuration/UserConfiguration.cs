@@ -33,6 +33,6 @@ public class UserConfiguration : IEntityTypeConfiguration<User>
             }
         );
 
-        builder.HasMany(x => x.RefreshTokens).WithOne(x => x.User).HasForeignKey(x => x.IdUserFk);
+        builder.HasMany(x => x.RefreshTokens).WithOne(x => x.Users).HasForeignKey(x => x.IdUserFk);
     }
 }
